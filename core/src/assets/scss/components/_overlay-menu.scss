@@ -1,0 +1,82 @@
+/*Overlay Menu*/
+
+.overlay {
+    &-link{
+        position: relative;
+        display: inline-block;
+        color: #777777;
+        &:after {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: auto;
+            width: 0;
+            height: 2px;
+            content: "";
+            -webkit-transition: .3s;
+            transition: .3s;
+            background-color: #333;
+        }
+        &:hover:after{
+            right: auto;
+            left: 0;
+            width: 100%;
+        }
+    }
+    &-menu {
+        &-item {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        &-link {
+            font-size: 32px;
+            line-height: 57px;
+        }
+    }
+    &-megamenu {
+        &-title, &-sub-link{
+            font-size: 20px;
+            line-height: 40px;
+            cursor: pointer;
+        }
+        &-sub-link{
+            color: #333;
+        }
+    }
+    &-submenu {
+        &-link {
+            font-size: 20px;
+            line-height: 40px;
+            color: #333;
+        }
+    }
+    &-megamenu, &-submenu, &-megamenu-sub {
+        position: relative;
+        min-width: 100%;
+        padding: 0px;
+        background-color: transparent;
+        top: auto;
+        left: 0px;
+        box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px;
+        border-bottom: none;
+        transform: translateY(0px);
+        max-height: 0px;
+        overflow-y: hidden;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        transform-origin: center top;
+        z-index: 99;
+    }
+}
+
+.submenu-open {
+    & > .overlay-megamenu,
+    & > .overlay-submenu,
+    & > .overlay-megamenu-sub {
+        max-height: 1000px;
+        visibility: visible;
+        opacity: 1;
+        pointer-events: visible;
+    }
+}

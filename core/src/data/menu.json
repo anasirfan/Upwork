@@ -1,0 +1,477 @@
+[
+    {
+        "id": "menu-1",
+        "text": "Home",
+        "link": "#!",
+        "megamenu": [
+            {
+                "title": "Home Group One",
+                "id": "menu-11",
+                "submenu": [
+                    {
+                        "id": "menu-111",
+                        "text": "Decor",
+                        "link": "/home/decor"
+                    },
+                    {
+                        "id": "menu-112",
+                        "text": "Creative",
+                        "link": "/home/creative"
+                    },
+                    {
+                        "id": "menu-113",
+                        "text": "Perfumes",
+                        "link": "/home/perfumes"
+                    },
+                    {
+                        "id": "menu-114",
+                        "text": "Trending",
+                        "link": "/home/trending"
+                    }
+                ]
+            },
+            {
+                "title": "Home Group Two",
+                "id": "menu-12",
+                "submenu": [
+                    {
+                        "id": "menu-121",
+                        "text": "Essentials",
+                        "link": "/home/essentials"
+                    },
+                    {
+                        "id": "menu-122",
+                        "text": "Accessories",
+                        "link": "/home/accessories"
+                    },
+                    {
+                        "id": "menu-123",
+                        "text": "Lookbook",
+                        "link": "/home/lookbook"
+                    },
+                    {
+                        "id": "menu-124",
+                        "text": "Furniture",
+                        "link": "/home/furniture"
+                    }
+                ]
+            },
+            {
+                "title": "Home Group Three",
+                "id": "menu-13",
+                "submenu": [
+                    {
+                        "id": "menu-131",
+                        "text": "Smart Design",
+                        "link": "/home/smart-design"
+                    },
+                    {
+                        "id": "menu-132",
+                        "text": "Collection",
+                        "link": "/home/collection"
+                    },
+                    {
+                        "id": "menu-133",
+                        "text": "Jewelry",
+                        "link": "/home/jewelry"
+                    },
+                    {
+                        "id": "menu-134",
+                        "text": "Cosmetics",
+                        "link": "/home/cosmetics"
+                    }
+                ]
+            },
+            {
+                "title": "Home Group Four",
+                "id": "menu-14",
+                "submenu": [
+                    {
+                        "id": "menu-141",
+                        "text": "Swimsuit",
+                        "link": "/home/swimsuit"
+                    },
+                    {
+                        "id": "menu-142",
+                        "text": "Special",
+                        "link": "/home/special"
+                    },
+                    {
+                        "id": "menu-143",
+                        "text": "Concept",
+                        "link": "/home/concept"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "menu-2",
+        "text": "Shop",
+        "link": "#!",
+        "megamenu": [
+            {
+                "title": "Group One",
+                "id": "menu-21",
+                "submenu": [
+                    {
+                        "id": "menu-211",
+                        "text": "Left Sidebar",
+                        "link": "/shop/left-sidebar"
+                    },
+                    {
+                        "id": "menu-212",
+                        "text": "Right Sidebar",
+                        "link": "/shop/right-sidebar"
+                    },
+                    {
+                        "id": "menu-213",
+                        "text": "No Sidebar",
+                        "link": "/shop/no-sidebar"
+                    },
+                    {
+                        "id": "menu-214",
+                        "text": "Full Width No Space",
+                        "link": "/shop/fullwidth-no-space"
+                    },
+                    {
+                        "id": "menu-215",
+                        "text": "Full Width No Sidebar",
+                        "link": "/shop/fullwidth-no-sidebar"
+                    },
+                    {
+                        "id": "menu-216",
+                        "text": "Full Width Left Sidebar",
+                        "link": "/shop/fullwidth-left-sidebar"
+                    },
+                    {
+                        "id": "menu-217",
+                        "text": "Full Width Right Sidebar",
+                        "link": "/shop/fullwidth-right-sidebar"
+                    }
+                ]
+            },
+            {
+                "title": "Group Two",
+                "id": "menu-22",
+                "submenu": [
+                    {
+                        "id": "menu-221",
+                        "text": "Basic",
+                        "link": "/shop/product-basic/lorem-ipsum-decor-one"
+                    },
+                    {
+                        "id": "menu-222",
+                        "text": "Full Width",
+                        "link": "/shop/product-fullwidth/lorem-ipsum-decor-one"
+                    },
+                    {
+                        "id": "menu-223",
+                        "text": "Full Width Right Thumb",
+                        "link": "/shop/product-fullwidth-right-thumb/lorem-ipsum-decor-one"
+                    },
+                    {
+                        "id": "menu-224",
+                        "text": "Sticky Details",
+                        "link": "/shop/product-sticky/lorem-ipsum-decor-one"
+                    },
+                    {
+                        "id": "menu-225",
+                        "text": "Shopping Cart",
+                        "link": "/other/cart"
+                    },
+                    {
+                        "id": "menu-226",
+                        "text": "Wishlist",
+                        "link": "/other/wishlist"
+                    },
+                    {
+                        "id": "menu-227",
+                        "text": "Compare",
+                        "link": "/other/compare"
+                    }
+                ]
+            },
+            {
+                "title": "Group Three",
+                "id": "menu-23",
+                "submenu": [
+                    {
+                        "id": "menu-231",
+                        "text": "Checkout",
+                        "link": "/other/checkout"
+                    },
+                    {
+                        "id": "menu-232",
+                        "text": "Order Tracking",
+                        "link": "/other/order-tracking"
+                    },
+                    {
+                        "id": "menu-233",
+                        "text": "My Account",
+                        "link": "/other/my-account"
+                    },
+                    {
+                        "id": "menu-234",
+                        "text": "Login Register",
+                        "link": "/other/login-register"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "menu-3",
+        "text": "Elements",
+        "link": "#!",
+        "megamenu": [
+            {
+                "title": "Group One",
+                "id": "menu-31",
+                "submenu": [
+                    {
+                        "id": "menu-311",
+                        "text": "Product Categories",
+                        "link": "/element/product-categories"
+                    },
+                    {
+                        "id": "menu-312",
+                        "text": "Product Sliders",
+                        "link": "/element/product-sliders"
+                    },
+                    {
+                        "id": "menu-313",
+                        "text": "Product Tabs",
+                        "link": "/element/product-tabs"
+                    },
+                    {
+                        "id": "menu-314",
+                        "text": "Product Widget",
+                        "link": "/element/product-widgets"
+                    },
+                    {
+                        "id": "menu-315",
+                        "text": "Recent Products",
+                        "link": "/element/recent-products"
+                    }
+                ]
+            },
+            {
+                "title": "Group Two",
+                "id": "menu-32",
+                "submenu": [
+                    {
+                        "id": "menu-321",
+                        "text": "Sale Products",
+                        "link": "/element/sale-products"
+                    },
+                    {
+                        "id": "menu-322",
+                        "text": "Featured products",
+                        "link": "/element/featured-products"
+                    },
+                    {
+                        "id": "menu-323",
+                        "text": "Top Rated products",
+                        "link": "/element/top-rated-products"
+                    },
+                    {
+                        "id": "menu-324",
+                        "text": "Best Selling",
+                        "link": "/element/best-selling-products"
+                    },
+                    {
+                        "id": "menu-325",
+                        "text": "Product Attributes",
+                        "link": "/element/product-attributes"
+                    }
+                ]
+            },
+            {
+                "title": "Group Three",
+                "id": "menu-33",
+                "submenu": [
+                    {
+                        "id": "menu-331",
+                        "text": "Blog Posts",
+                        "link": "/element/blog-posts"
+                    },
+                    {
+                        "id": "menu-332",
+                        "text": "Mailchimp Form",
+                        "link": "/element/mailchimp-forms"
+                    },
+                    {
+                        "id": "menu-333",
+                        "text": "Icon Box",
+                        "link": "/element/icon-boxes"
+                    },
+                    {
+                        "id": "menu-334",
+                        "text": "Team Member",
+                        "link": "/element/team-members"
+                    },
+                    {
+                        "id": "menu-335",
+                        "text": "FAQs / Toggles",
+                        "link": "/element/faqs"
+                    }
+                ]
+            },
+            {
+                "title": "Group Four",
+                "id": "menu-34",
+                "submenu": [
+                    {
+                        "id": "menu-341",
+                        "text": "Countdown Timer",
+                        "link": "/element/countdown-timers"
+                    },
+                    {
+                        "id": "menu-342",
+                        "text": "Buttons",
+                        "link": "/element/buttons"
+                    },
+                    {
+                        "id": "menu-343",
+                        "text": "Testimonials",
+                        "link": "/element/testimonials"
+                    },
+                    {
+                        "id": "menu-344",
+                        "text": "Google Maps",
+                        "link": "/element/google-maps"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "menu-4",
+        "text": "Pages",
+        "link": "#!",
+        "submenu": [
+            {
+                "id": "menu-41",
+                "text": "About Us",
+                "link": "/other/about"
+            },
+            {
+                "id": "menu-42",
+                "text": "About Us Two",
+                "link": "/other/about-two"
+            },
+            {
+                "id": "menu-43",
+                "text": "Contact Us",
+                "link": "/other/contact"
+            },
+            {
+                "id": "menu-44",
+                "text": "F.A.Q",
+                "link": "/other/faq"
+            },
+            {
+                "id": "menu-45",
+                "text": "Coming Soon",
+                "link": "/other/coming-soon"
+            },
+            {
+                "id": "menu-46",
+                "text": "Not Found",
+                "link": "/other/not-found"
+            }
+        ]
+    },
+    {
+        "id": "menu-5",
+        "text": "Blog",
+        "link": "#!",
+        "megamenu": [
+            {
+                "title": "Standard Layout",
+                "id": "menu-51",
+                "submenu": [
+                    {
+                        "id": "menu-511",
+                        "text": "Left Sidebar",
+                        "link": "/blog/standard-left-sidebar"
+                    },
+                    {
+                        "id": "menu-512",
+                        "text": "Right Sidebar",
+                        "link": "/blog/standard-right-sidebar"
+                    },
+                    {
+                        "id": "menu-513",
+                        "text": "Full Width",
+                        "link": "/blog/standard-fullwidth"
+                    }
+                ]
+            },
+            {
+                "title": "Grid Layout",
+                "id": "menu-52",
+                "submenu": [
+                    {
+                        "id": "menu-521",
+                        "text": "Left Sidebar",
+                        "link": "/blog/grid-left-sidebar"
+                    },
+                    {
+                        "id": "menu-522",
+                        "text": "Right Sidebar",
+                        "link": "/blog/grid-right-sidebar"
+                    },
+                    {
+                        "id": "menu-523",
+                        "text": "Full Width",
+                        "link": "/blog/grid-fullwidth"
+                    }
+                ]
+            },
+            {
+                "title": "List Layout",
+                "id": "menu-53",
+                "submenu": [
+                    {
+                        "id": "menu-531",
+                        "text": "Left Sidebar",
+                        "link": "/blog/list-left-sidebar"
+                    },
+                    {
+                        "id": "menu-532",
+                        "text": "Right Sidebar",
+                        "link": "/blog/list-right-sidebar"
+                    },
+                    {
+                        "id": "menu-533",
+                        "text": "Full Width",
+                        "link": "/blog/list-fullwidth"
+                    }
+                ]
+            },
+            {
+                "title": "Single Post Layout",
+                "id": "menu-54",
+                "submenu": [
+                    {
+                        "id": "menu-541",
+                        "text": "Left Sidebar",
+                        "link": "/blog/post-left-sidebar"
+                    },
+                    {
+                        "id": "menu-542",
+                        "text": "Right Sidebar",
+                        "link": "/blog/post-right-sidebar"
+                    },
+                    {
+                        "id": "menu-543",
+                        "text": "Full Width",
+                        "link": "/blog/post-fullwidth"
+                    }
+                ]
+            }
+        ]
+    }
+]

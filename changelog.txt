@@ -1,0 +1,13 @@
+Date   :  23 March, 2023
+Version: 3.0.1 
+========================
+1. @reduxjs/toolkit store product persist issue fixed
+
+
+
+Date   : 08 December, 2022
+Version: 3.0.0
+========================
+1. NextJS version updated to 13.0.5 
+2. ReactJS version updated to 18.2.0
+3. Bootstrap version updated to 5.2.2

@@ -1,0 +1,50 @@
+
+/*=============================================
+=            faq            =
+=============================================*/
+
+
+.faq-title {
+  font-size: 35px;
+  line-height: 38px;
+
+@include respond(small-mobile) {
+    font-size: 25px;
+    line-height: 32px;
+  }
+}
+
+.single-faq {
+  .accordion{
+    --bs-accordion-color: $grey--seven;
+    --bs-accordion-border-width: 0;
+    --bs-accordion-border-radius: 0;
+    --bs-accordion-inner-border-radius: 0;
+    --bs-accordion-body-padding-x: 0;
+    --bs-accordion-body-padding-y: 1rem;
+    --bs-accordion-active-color: $black--two;
+    --bs-accordion-active-bg: transparent;
+    --bs-accordion-btn-color: $black--two;
+    --bs-accordion-btn-padding-x: 0;
+    --bs-accordion-btn-padding-y: 1rem;
+    --bs-accordion-btn-focus-border-color: transparent;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-btn-icon: none;
+    --bs-accordion-btn-active-icon: none;
+    &-button{
+      font-size: 1.75rem;
+      line-height: 1.2;
+      overflow-wrap: break-word;
+      white-space: normal;
+    }
+    &-body{
+      p {
+        font-size: 0.938rem;
+        line-height: 1.6; 
+      }
+    }
+  }
+}
+
+/*=====  End of faq  ======*/
+
